@@ -1,0 +1,64 @@
+{
+    "name": "webisters/crypto",
+    "description": "Webisters Crypto Library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "crypt",
+        "crypto",
+        "cryptography",
+        "password",
+        "sign",
+        "secret-box",
+        "generic-hash",
+        "sodium"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/crypto",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/crypto/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/crypto",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-sodium": "*"
+    },
+    "require-dev": {
+        "webisters/coding-standard": "*",
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Framework\\Crypto\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Crypto\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+
+
