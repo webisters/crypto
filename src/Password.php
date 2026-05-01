@@ -24,17 +24,17 @@ class Password
      * Used to set operations or memory limit as interactive.
      * It enables the use of 2 CPU operations or 64 MB RAM.
      */
-    public const int LIMIT_INTERACTIVE = 0;
+    public const LIMIT_INTERACTIVE = 0;
     /**
      * Used to set operations or memory limit as moderate.
      * It enables the use of 3 CPU operations or 256 MB RAM.
      */
-    public const int LIMIT_MODERATE = 1;
+    public const LIMIT_MODERATE = 1;
     /**
      * Used to set operations or memory limit as sensitive.
      * It enables the use of 4 CPU operations or 1 GB RAM.
      */
-    public const int LIMIT_SENSITIVE = 2;
+    public const LIMIT_SENSITIVE = 2;
     protected static int $opsLimit = Password::LIMIT_INTERACTIVE;
     protected static int $memLimit = Password::LIMIT_INTERACTIVE;
 
